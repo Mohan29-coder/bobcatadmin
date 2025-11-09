@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "YOUR_EXISTING_API_KEY",
-    authDomain: "YOUR_EXISTING_PROJECT.firebaseapp.com",
-    projectId: "YOUR_EXISTING_PROJECT_ID",
-    storageBucket: "YOUR_EXISTING_BUCKET.appspot.com",
-    messagingSenderId: "YOUR_EXISTING_SENDER_ID",
-    appId: "YOUR_EXISTING_APP_ID"
+    apiKey: "AIzaSyBBj6aXHtdRqUyeSUazACqQbsZcTTVLP4U",
+    authDomain: "bobcat-65b3b.firebaseapp.com",
+    projectId: "bobcat-65b3b",
+    storageBucket: "bobcat-65b3b.firebasestorage.app",
+    messagingSenderId: "655074041293",
+    appId: "1:655074041293:web:39d5c2e5191941588cb884"
 };
 
 const app = initializeApp(firebaseConfig);
